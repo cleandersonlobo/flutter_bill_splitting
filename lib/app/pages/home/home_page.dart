@@ -49,7 +49,22 @@ class _HomepageState extends State<Homepage> {
                 ],
               ),
             ),
-            KeyboardBill()
+            KeyboardBill(),
+            Container(
+                width: MediaQuery.of(context).size.width,
+                child: FlatButton(
+                  color: Colors.green[500],
+                  textColor: Colors.white,
+                  padding: EdgeInsets.all(20.0),
+                  splashColor: Colors.greenAccent,
+                  onPressed: () {
+                    /*...*/
+                  },
+                  child: Text(
+                    "SPLIT BILL",
+                    style: TextStyle(fontSize: 16.0),
+                  ),
+                ))
           ],
         ),
       )),
