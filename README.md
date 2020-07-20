@@ -1,6 +1,11 @@
 # flutter_bill_splitting
 
-A new Flutter project.
+## Challenge
+
+[Dribbble Design](https://dribbble.com/shots/4437846-Split-Bill-concept/attachments/1008076)
+
+![App-design](https://cdn.dribbble.com/users/997070/screenshots/4437846/attachments/1008076/split_bill_2x.png)
+
 
 ## Getting Started
 
@@ -14,3 +19,8 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+## Author
+
+*	[Cleanderson Lobo](https://www.linkedin.com/in/cleandersonlobo/)
