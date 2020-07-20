@@ -1,10 +1,15 @@
 # flutter_bill_splitting
 
-## Challenge
+### UI Challenge
 
 [Dribbble Design](https://dribbble.com/shots/4437846-Split-Bill-concept/attachments/1008076)
 
 ![App-design](https://cdn.dribbble.com/users/997070/screenshots/4437846/attachments/1008076/split_bill_2x.png)
+
+Design animation
+
+![App-design](https://cdn.dribbble.com/users/997070/screenshots/4413821/split-bill-interaction-tips-calculator.gif)
+
 
 
 ## Getting Started
