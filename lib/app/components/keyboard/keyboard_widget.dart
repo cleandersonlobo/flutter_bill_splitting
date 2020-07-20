@@ -15,8 +15,8 @@ class KeyboardBill extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 FlatButton(
-                  onPressed: null,
-                  padding: EdgeInsets.all(40),
+                  onPressed: () {},
+                  padding: EdgeInsets.all(30),
                   child: Text(
                     "1",
                     style: TextStyle(
@@ -27,8 +27,8 @@ class KeyboardBill extends StatelessWidget {
                   ),
                 ),
                 FlatButton(
-                  onPressed: null,
-                  padding: EdgeInsets.all(40),
+                  onPressed: () {},
+                  padding: EdgeInsets.all(30),
                   child: Text(
                     "2",
                     style: TextStyle(
@@ -39,8 +39,8 @@ class KeyboardBill extends StatelessWidget {
                   ),
                 ),
                 FlatButton(
-                  onPressed: null,
-                  padding: EdgeInsets.all(40),
+                  onPressed: () {},
+                  padding: EdgeInsets.all(30),
                   child: Text(
                     "3",
                     style: TextStyle(
@@ -58,8 +58,8 @@ class KeyboardBill extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 FlatButton(
-                  onPressed: null,
-                  padding: EdgeInsets.all(40),
+                  onPressed: () {},
+                  padding: EdgeInsets.all(30),
                   child: Text(
                     "4",
                     style: TextStyle(
@@ -70,8 +70,8 @@ class KeyboardBill extends StatelessWidget {
                   ),
                 ),
                 FlatButton(
-                  onPressed: null,
-                  padding: EdgeInsets.all(40),
+                  onPressed: () {},
+                  padding: EdgeInsets.all(30),
                   child: Text(
                     "5",
                     style: TextStyle(
@@ -82,8 +82,8 @@ class KeyboardBill extends StatelessWidget {
                   ),
                 ),
                 FlatButton(
-                  onPressed: null,
-                  padding: EdgeInsets.all(40),
+                  onPressed: () {},
+                  padding: EdgeInsets.all(30),
                   child: Text(
                     "6",
                     style: TextStyle(
@@ -101,8 +101,8 @@ class KeyboardBill extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 FlatButton(
-                  onPressed: null,
-                  padding: EdgeInsets.all(40),
+                  onPressed: () {},
+                  padding: EdgeInsets.all(30),
                   child: Text(
                     "7",
                     style: TextStyle(
@@ -113,8 +113,8 @@ class KeyboardBill extends StatelessWidget {
                   ),
                 ),
                 FlatButton(
-                  onPressed: null,
-                  padding: EdgeInsets.all(40),
+                  onPressed: () {},
+                  padding: EdgeInsets.all(30),
                   child: Text(
                     "8",
                     style: TextStyle(
@@ -125,8 +125,8 @@ class KeyboardBill extends StatelessWidget {
                   ),
                 ),
                 FlatButton(
-                  onPressed: null,
-                  padding: EdgeInsets.all(40),
+                  onPressed: () {},
+                  padding: EdgeInsets.all(30),
                   child: Text(
                     "9",
                     style: TextStyle(
@@ -144,8 +144,8 @@ class KeyboardBill extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 FlatButton(
-                  onPressed: null,
-                  padding: EdgeInsets.all(40),
+                  onPressed: () {},
+                  padding: EdgeInsets.all(30),
                   child: Text(
                     "+",
                     style: TextStyle(
@@ -156,8 +156,8 @@ class KeyboardBill extends StatelessWidget {
                   ),
                 ),
                 FlatButton(
-                  onPressed: null,
-                  padding: EdgeInsets.all(40),
+                  onPressed: () {},
+                  padding: EdgeInsets.all(30),
                   child: Text(
                     "0",
                     style: TextStyle(
@@ -168,8 +168,8 @@ class KeyboardBill extends StatelessWidget {
                   ),
                 ),
                 FlatButton(
-                  onPressed: null,
-                  padding: EdgeInsets.all(40),
+                  onPressed: () {},
+                  padding: EdgeInsets.all(30),
                   child: Icon(
                     Icons.backspace,
                     color: Colors.red,

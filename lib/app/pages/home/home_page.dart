@@ -16,40 +16,53 @@ class _HomepageState extends State<Homepage> {
           child: Padding(
         padding: EdgeInsets.all(20.0),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisSize: MainAxisSize.max,
           children: <Widget>[
-            Header(
-              title: "Split Bill",
-            ),
-            CardBill(),
             Container(
-              margin: EdgeInsets.only(top: 20, bottom: 20),
-              child: Row(
-                mainAxisSize: MainAxisSize.max,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
-                  OutlineButton(
-                    onPressed: () {},
-                    child: Text("0%"),
+                  Header(
+                    title: "Split Bill",
                   ),
-                  OutlineButton(
-                    onPressed: () {},
-                    child: Text("10%"),
+                  CardBill(),
+                  Container(child: Slider(max: 10, value: 10, onChanged: null)),
+                  Container(
+                    margin: EdgeInsets.only(top: 20, bottom: 20),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.max,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        OutlineButton(
+                          onPressed: () {},
+                          highlightedBorderColor: Colors.green,
+                          child: Text("0%"),
+                        ),
+                        OutlineButton(
+                          onPressed: () {},
+                          highlightedBorderColor: Colors.green,
+                          child: Text("10%"),
+                        ),
+                        OutlineButton(
+                          onPressed: () {},
+                          highlightedBorderColor: Colors.green,
+                          child: Text("20%"),
+                        ),
+                        OutlineButton(
+                          onPressed: () {},
+                          highlightedBorderColor: Colors.green,
+                          child: Text("30%"),
+                        )
+                      ],
+                    ),
                   ),
-                  OutlineButton(
-                    onPressed: () {},
-                    child: Text("20%"),
-                  ),
-                  OutlineButton(
-                    onPressed: () {},
-                    child: Text("30%"),
-                  )
                 ],
               ),
             ),
-            KeyboardBill(),
+            Expanded(flex: 1, child: KeyboardBill()),
             Container(
                 width: MediaQuery.of(context).size.width,
                 child: FlatButton(
