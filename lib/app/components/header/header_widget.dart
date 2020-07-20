@@ -6,9 +6,13 @@ class Header extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text(
-        title ?? "Button",
-        style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600),
+      alignment: Alignment.centerLeft,
+      child: Padding(
+        padding: const EdgeInsets.only(top: 20, bottom: 20),
+        child: Text(
+          title ?? "Button",
+          style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600),
+        ),
       ),
     );
   }
